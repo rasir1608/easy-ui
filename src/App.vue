@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <normalButtons></normalButtons>    
+    <!-- <normalButtons></normalButtons>    
     <disabledButtons></disabledButtons>
+    <ColorFullButtons></ColorFullButtons>
+    <HoverButtons></HoverButtons>  
+    <IconButtons></IconButtons>
+    <SizeButtons></SizeButtons> -->
+    <DisabledRadios></DisabledRadios>
   </div>
 </template>
 
@@ -9,11 +14,17 @@
 import Hello from '@/components/Hello.vue'
 import normalButtons from '@/components/buttons/normal-buttons.vue'
 import disabledButtons from '@/components/buttons/disabled-buttons.vue'
+import ColorFullButtons from '@/components/buttons/colorfull-buttons.vue'
+import HoverButtons from '@/components/buttons/hover-buttons.vue'
+import IconButtons from '@/components/buttons/icon-buttons.vue'
+import SizeButtons from '@/components/buttons/size-buttons.vue'
+import DisabledRadios from '@/components/form/radios/disabled-radios.vue'
 
 export default {
   name: 'app',
   components:{
-    Hello,normalButtons,disabledButtons
+    Hello,normalButtons,disabledButtons,ColorFullButtons,HoverButtons,IconButtons,SizeButtons,
+    DisabledRadios
   }
 }
 </script>
