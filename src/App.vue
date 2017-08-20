@@ -6,7 +6,7 @@
     <HoverButtons></HoverButtons>  
     <IconButtons></IconButtons>
     <SizeButtons></SizeButtons> -->
-    <DisabledRadios></DisabledRadios>
+    <StyleRadios></StyleRadios>
   </div>
 </template>
 
@@ -19,12 +19,13 @@ import HoverButtons from '@/components/buttons/hover-buttons.vue'
 import IconButtons from '@/components/buttons/icon-buttons.vue'
 import SizeButtons from '@/components/buttons/size-buttons.vue'
 import DisabledRadios from '@/components/form/radios/disabled-radios.vue'
+import StyleRadios from '@/components/form/radios/style-radios.vue'
 
 export default {
   name: 'app',
   components:{
     Hello,normalButtons,disabledButtons,ColorFullButtons,HoverButtons,IconButtons,SizeButtons,
-    DisabledRadios
+    DisabledRadios,StyleRadios
   }
 }
 </script>
